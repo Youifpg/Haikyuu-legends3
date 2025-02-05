@@ -87,7 +87,7 @@ function startAutoSpin()
         else
             game:GetService("ReplicatedStorage").Packages._Index["sleitnick_knit@1.7.0"].knit.Services.StylesService.RF.Roll:InvokeServer(false)
             print("Spinning... Current result:", currentStyle)
-            wait()
+            wait(0.5)
         end
     end
 end
